@@ -13,11 +13,12 @@ a{
 .Homepage{
 width: 100%;
 display: grid;
-left: 2%;
 background: linear-gradient(180deg, rgba(246, 215, 228, 0.2) -48.97%, rgba(246, 215, 228, 0) 92.37%); 
  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 .navbar{
+  display: flex;
+  justify-content: space-between;
   width: 80%;
   margin: auto;
 }
@@ -25,8 +26,6 @@ background: linear-gradient(180deg, rgba(246, 215, 228, 0.2) -48.97%, rgba(246, 
   width: 30%;
   height: 55px;
   margin-top: 1%;
-  
-  font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 700;
   font-size: 26px;
@@ -36,6 +35,7 @@ background: linear-gradient(180deg, rgba(246, 215, 228, 0.2) -48.97%, rgba(246, 
 }
 .nav-content{
   display: flex;
+justify-content: end;
   width: 70%;
   height: 55px;
 
@@ -49,14 +49,102 @@ width: 143px;
 height: 55px;
 
 background: #FFFFFF;
-/* border: 1px solid rgba(137, 77, 234, 0.5); */
-border: #894DEA;
+border: 1px solid rgba(137, 77, 234, 0.5);
+
 border-radius: 80px;
 }
 .nav-content>p{
   margin-top: 2%;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-right: 3%;
   color: #747582;
+}
+.nav-button:hover{
+  border: 2px solid rgb(9, 163, 240);
+}
+.AboutUs{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 10%;
+margin-top: 100px;
+}
+.Aboutus-left{
+  width: 50%;
+
+}
+.active{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #F17216;
+}
+.Aboutus-heading{
+
+  width: 646px;
+  
+  
+  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  /* or 138% */
+  
+  letter-spacing: 0.02em;
+  
+  color: #282C4B;
+
+}
+
+
+.Aboutus-text{
+  width: 561px;
+
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+/* or 180% */
+
+
+color: #747582;
+}
+.Aboutus-button-book{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+
+}
+.Aboutus-button{
+  width: 210px;
+height: 68px;
+background: linear-gradient(97.32deg, #FF698D -3.47%, #FB3F6C 108.43%);
+border: 2px solid rgba(255, 255, 255, 0.8);
+box-shadow: 0px 30px 50px rgba(168, 22, 75, 0.15);
+border-radius: 192px;
+}
+.Aboutus-button:hover{
+  border: 2px solid rgb(9, 163, 240);
+}
+.Aboutus-book{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 20px;
+  letter-spacing: 0.02em;
+  
+  color: #282C4B;
+}
+.Aboutus-img{
+  width: 416.31px;
+height: 496px;
+
+
 }
 

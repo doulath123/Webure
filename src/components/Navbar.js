@@ -13,8 +13,6 @@ function Navbar() {
             <p>Contact Us</p>
             <button className='nav-button'>Let's Talk</button>
         </div>
-        
-      
     </div>
   )
 }
